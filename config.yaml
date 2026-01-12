@@ -1,0 +1,16 @@
+parser:
+  weights:
+    line_weight: 0.05
+    var_weight: 0.2
+    sql_weight: 15.0  # High weight because SQL is hard
+    call_weight: 10.0
+    logic_weight: 2.0  # Weight for IF/PERFORM statements
+
+thresholds:
+  risk:
+    high: 60
+    medium: 25
+
+conversion:
+  target_version: "Java 17"
+  framework: "Spring Boot 3.2"

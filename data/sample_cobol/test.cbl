@@ -1,0 +1,6 @@
+       PROGRAM-ID. TEST-PROG.
+       WORKING-STORAGE SECTION.
+       01 WS-VAR PIC X(10).
+       PROCEDURE DIVISION.
+           DISPLAY 'HELLO'.
+           STOP RUN.

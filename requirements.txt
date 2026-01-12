@@ -1,0 +1,11 @@
+openai
+pandas
+scikit-learn
+pyyaml
+pytest
+python-dotenv
+joblib
+pyspark==3.5.0
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart
